@@ -6,6 +6,7 @@ import {
     TableCell,
     TableColumn,
 } from "@nextui-org/table"
+import Link from "next/link"
 
 
 export default function CompetenciasAnteriores() {
@@ -19,7 +20,12 @@ export default function CompetenciasAnteriores() {
                         <TableColumn>Resultados</TableColumn>
                     </TableHeader>
                     <TableBody>
-
+                        <TableRow key={1}>
+                            <TableCell>I Cuarentena</TableCell>
+                            <TableCell><Link href={''}>Enunciados</Link></TableCell>
+                            <TableCell><Link href={''}>Resultados</Link></TableCell>
+                        </TableRow>
+                        {/* Hacer array de las competencias y armar el tablero recorriendo el array */}
                     </TableBody>
                 </Table>
             </div>
