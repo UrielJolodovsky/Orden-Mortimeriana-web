@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Header() {
 
@@ -8,8 +9,8 @@ export default function Header() {
         <div className=""> 
         {/* sticky top-0 */}
             <nav id="header" className="w-full h-20 flex bg-black">
-                <div className="flex justify-center items-center w-1/5">
-                    <Link href='#header' className=""><Image alt="Logo" width="20" height="20" src="/sitio-cuarentena/public/logo.png"></Image></Link>
+                <div className="flex justify-start items-center w-1/5 ml-5">
+                    <Link href='#header' className=""><Image className='rounded-full border-2' alt="Logo" width={60} height={60} src="/logo.png"></Image></Link>
                 </div>
                <div className="flex justify-end items-center w-4/5">
                     <ul className="flex text-white gap-10 mr-10 text-md">

@@ -12,7 +12,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero': 'url("/sitio-cuarentena/public/subtle-prism.png")'  
+        'hero': 'url("/subtle-prism.png")',
+        'contact-hr': 'linear-gradient(to right, #ffffff00 0%, #457b9d 50%, #ffffff00 100%)'
       },
     },
   },
