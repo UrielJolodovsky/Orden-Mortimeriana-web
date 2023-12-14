@@ -17,6 +17,13 @@ const config: Config = {
       },
     },
   },
+  screens:{
+    'xs': {"raw": "(min-width: 250px)"},
+    'sm': {"raw": "(min-width: 374px)"},
+    'md': {"raw": "(min-width: 800px)"},
+    'lg': {"raw": "(min-width: 1160px)"},
+    'xl': {"raw": "(min-width: 1390px)"},
+  },  
   plugins: [],
 }
 export default config
