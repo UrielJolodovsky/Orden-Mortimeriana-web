@@ -1,6 +1,14 @@
+import CardNotice from "./CardNotice";
 
 
 export default function QuienesSomos() {
+
+    const noticias = [
+        { fecha: '15-12-2023', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo' },
+        { fecha: '2022-01-02', noticia: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.' },
+        { fecha: '2022-01-03', noticia: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.' },
+    ];
+
     return(
         <>
             <div className="bg-hero">
@@ -13,11 +21,18 @@ export default function QuienesSomos() {
                 </div>
                 <hr className="border-black"></hr>
                 <div id="noticias" className="">
-                    <h1 className="text-center pt-5 pb-10 text-3xl leading-10 font-semibold">Noticias</h1>
+                    <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Noticias</h1>
+                    <div className="md:flex w-full justify-center items-center mx-10 mb-10">
+                        {noticias.map((noticia) => (
+                            CardNotice(noticia)
+                        )
+                        )}
+                    </div>
                 </div>
                 <hr className="border-black"></hr>
                 <div id="competencias-anteriores" className="">
                     <h1 className="text-center pt-5 pb-10 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
+
                 </div>
                 <hr></hr>
             </div>

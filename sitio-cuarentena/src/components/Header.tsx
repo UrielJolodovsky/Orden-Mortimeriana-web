@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div className=""> 
         {/* sticky top-0 */}
-            <nav id="header" className=" w-full h-20 flex bg-black">
+            <nav id="header" className=" w-full h-20 flex bg-black shadow-2xl">
                 <div className="md:flex flex md:justify-start items-center w-full md:w-1/5 md:ml-5 justify-center">
                     <Link href='#header' className=""><Image className='rounded-full border-2' alt="Logo" width={60} height={60} src="/logo.png"></Image></Link>
                 </div>
