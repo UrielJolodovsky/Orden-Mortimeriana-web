@@ -11,7 +11,7 @@ export default function QuienesSomos() {
 
     return(
         <>
-            <div className="bg-hero">
+            <div className="bg-hero bg-cover">
                 <div id="quienes-somos" className="">
                     <h1 className="text-center pb-10 pt-5 text-3xl leading-10 font-semibold">¿Quienes somos?</h1>
                     <p className="pb-5 mx-5">
@@ -32,7 +32,8 @@ export default function QuienesSomos() {
                 <hr className="border-black"></hr>
                 <div id="competencias-anteriores" className="mx-3">
                     <h1 className="text-center pt-5 pb-10 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
-
+                    {/* Table with results of all olympiads competitions */}
+                    
                 </div>
                 <hr></hr>
             </div>
