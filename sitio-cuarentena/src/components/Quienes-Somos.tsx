@@ -22,7 +22,7 @@ export default function QuienesSomos() {
                 <hr className="border-black"></hr>
                 <div id="noticias" className="">
                     <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Noticias</h1>
-                    <div className="md:flex justify-center items-center mx-10 mb-10 gap-10 relative">
+                    <div className="flex flex-wrap justify-center items-center mx-10 mb-10 gap-10 relative">
                         {noticias.map((noticia) => (
                             CardNotice(noticia)
                         )
