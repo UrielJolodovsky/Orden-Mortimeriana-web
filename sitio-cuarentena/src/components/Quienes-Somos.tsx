@@ -4,9 +4,9 @@ import CardNotice from "./CardNotice";
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '15-12-2023', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo' },
-        // { fecha: '2022-01-02', noticia: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.' },
-        // { fecha: '2022-01-03', noticia: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.' },
+        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo' },
+        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos' },
+        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.' },
     ];
 
     return(
@@ -22,7 +22,7 @@ export default function QuienesSomos() {
                 <hr className="border-black"></hr>
                 <div id="noticias" className="">
                     <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Noticias</h1>
-                    <div className="flex justify-center items-center mx-10 mb-10">
+                    <div className="md:flex justify-center items-center mx-10 mb-10 gap-10 relative">
                         {noticias.map((noticia) => (
                             CardNotice(noticia)
                         )
@@ -30,7 +30,7 @@ export default function QuienesSomos() {
                     </div>
                 </div>
                 <hr className="border-black"></hr>
-                <div id="competencias-anteriores" className="">
+                <div id="competencias-anteriores" className="mx-3">
                     <h1 className="text-center pt-5 pb-10 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
 
                 </div>
