@@ -2,16 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 
 
-const CardNotice = ({ fecha, title, noticia }: { fecha: string; title: string; noticia: string }) => {
+export default function CardNotice({ fecha, title, noticia, number }: { fecha: string; title: string; noticia: string, number: number }) {
   return (
-        <div key='' className='rounded-[25px] bg-white w-72 h-[407px] relative'>
+        <div key={number} className='rounded-[25px] bg-white w-72 h-[407px] relative'>
           <div className='relative h-40 w-full flex justify-center items-center gap-y-[5px]'>
             {/* Image content - Parte de arriba */}
             <span className='absolute h-full w-full top-0 left-0 bg-blue-400 rounded-t-[25px] rounded-b-none rounded-l-[25px]'></span>
             <div className='relative rounded-full p-[3px]'>
               <Image
                 className='w-full h-full object-cover rounded-full border-4 border-gray-300'
-                alt='Foto-Noticia'
+                alt={number.toString()}
                 width={120}
                 height={120}
                 src='/logo.png'
@@ -34,4 +34,3 @@ const CardNotice = ({ fecha, title, noticia }: { fecha: string; title: string; n
   );
 };
 
-export default CardNotice;

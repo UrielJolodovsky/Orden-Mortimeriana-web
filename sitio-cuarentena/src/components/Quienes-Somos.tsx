@@ -10,9 +10,9 @@ import CardNotice from './CardNotice'
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo' },
-        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos' },
-        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.' },
+        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1 },
+        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2 },
+        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3 },
     ];
 
     return(
@@ -30,7 +30,7 @@ export default function QuienesSomos() {
                     <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Noticias</h1>
                     <div className="flex flex-wrap justify-center items-center mx-10 mb-10 gap-10 relative">
                         {noticias.map((noticia) => (
-                                <CardNotice fecha={noticia.fecha} title={noticia.title} noticia={noticia.noticia} />
+                            CardNotice(noticia)
                         )
                         )}
                     </div>
@@ -79,8 +79,8 @@ export default function QuienesSomos() {
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
                                         <td className="p-1">
-                                            <a href="" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
-                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="">Día 2</a>
+                                            <a href="enunciados/Cuarentena_4_Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
+                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_4_Dia2.pdf">Día 2</a>
                                         </td>
                                         <td className="p-1"><a href="">Resultados</a></td>
                                     </tr>
