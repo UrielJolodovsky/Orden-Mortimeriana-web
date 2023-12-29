@@ -1,8 +1,14 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
+export default function CardNotice({ fecha, title, noticia, number, url }: { fecha: string; title: string; noticia: string, number: number, url: string }) {
 
-export default function CardNotice({ fecha, title, noticia, number }: { fecha: string; title: string; noticia: string, number: number }) {
+  const router = useRouter();
+  const handleClick = (url: string) => router.push(`${url}`);
+  
+  
   return (
         <div key={number} className='rounded-[25px] bg-white w-72 h-[407px] relative'>
           <div className='relative h-40 w-full flex justify-center items-center gap-y-[5px]'>
@@ -22,7 +28,9 @@ export default function CardNotice({ fecha, title, noticia, number }: { fecha: s
             {/* Card content */}
             <h2 className='text-lg text-center'>{title}</h2>
             <p className='text-center text-base text-gray-500 pt-4'>{noticia}</p>
-            <button className='border-none text-[14px] text-white px-4 py-3 bg-blue-400 rounded-md m-3 cursor-pointer transition-all ease-linear hover:bg-blue-600'>
+            <button className='border-none text-[14px] text-white px-4 py-3 bg-blue-400 rounded-md m-3 cursor-pointer transition-all ease-linear hover:bg-blue-600'
+            onClick={() => handleClick(url)}
+            >
               Ver más
             </button>
             {/* put this h4 starting that line */}

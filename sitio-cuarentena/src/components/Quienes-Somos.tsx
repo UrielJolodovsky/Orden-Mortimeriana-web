@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
@@ -5,14 +6,15 @@ import "swiper/css/effect-coverflow"
 import EffectCoverflow  from "swiper"
 import { Autoplay } from 'swiper/modules'
 import CardNotice from './CardNotice'
+import { useRouter } from 'next/navigation'
 
 
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1 },
-        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2 },
-        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3 },
+        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
+        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/cuarentena3' },
+        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena2' },
     ];
 
     return(
@@ -56,7 +58,7 @@ export default function QuienesSomos() {
                                     <tr className="m-3 h-12">
                                         <td className="p-1">CUARENTENA (2020)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="">Resultados</a></td>
+                                        <td className="p-1"><a href="/resultados/Cuarentena1.com">Resultados</a></td>
                                     </tr>
                                     <tr className="h-12">
                                         <td className="p-1">CUARENTENA II (2021)</td>
