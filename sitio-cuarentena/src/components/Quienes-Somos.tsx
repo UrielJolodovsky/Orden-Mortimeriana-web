@@ -58,7 +58,7 @@ export default function QuienesSomos() {
                                     <tr className="m-3 h-12">
                                         <td className="p-1">CUARENTENA (2020)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="/resultados/Cuarentena1.com">Resultados</a></td>
+                                        <td className="p-1"><a href="/resultados/cuarentena1" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12">
                                         <td className="p-1">CUARENTENA II (2021)</td>
@@ -66,17 +66,17 @@ export default function QuienesSomos() {
                                             <a href="enunciados/Cuarentena_2_Día1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
                                             <a className="block p-1 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_2_Día2.pdf">Día 2</a>
                                         </td>
-                                        <td className="p-1"><a href="">Resultados</a></td>
+                                        <td className="p-1"><a href="" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA III (2021)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="">Resultados</a></td>
+                                        <td className="p-1"><a href="" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">Semana de Mórtimer (2022)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="">Resultados</a></td>
+                                        <td className="p-1"><a href="" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
@@ -84,7 +84,7 @@ export default function QuienesSomos() {
                                             <a href="enunciados/Cuarentena_4_Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
                                             <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_4_Dia2.pdf">Día 2</a>
                                         </td>
-                                        <td className="p-1"><a href="">Resultados</a></td>
+                                        <td className="p-1"><a className='hover:text-blue-700 hover:transition-all hover:ease-in' href="resultados/cuarentena4">Resultados</a></td>
                                     </tr>
                                 </tbody>
                             </table>
