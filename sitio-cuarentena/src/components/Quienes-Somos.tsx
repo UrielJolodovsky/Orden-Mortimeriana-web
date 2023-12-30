@@ -13,7 +13,7 @@ export default function QuienesSomos() {
 
     const noticias = [
         { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
-        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/cuarentena3' },
+        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
         { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena2' },
     ];
 
@@ -76,7 +76,7 @@ export default function QuienesSomos() {
                                     <tr className="h-12 m-3">
                                         <td className="p-1">Semana de Mórtimer (2022)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1"><a href="resultados/semana1" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
