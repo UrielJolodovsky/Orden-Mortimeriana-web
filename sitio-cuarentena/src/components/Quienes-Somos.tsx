@@ -13,8 +13,8 @@ export default function QuienesSomos() {
 
     const noticias = [
         { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
-        { fecha: '02/01/2022', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
-        { fecha: '03/01/2022', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
+        { fecha: '12/03/2023', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
+        { fecha: '22/12/2021', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
     ];
 
     return(
@@ -57,34 +57,34 @@ export default function QuienesSomos() {
                                 <tbody className="p-2 m-2">
                                     <tr className="m-3 h-12">
                                         <td className="p-1">CUARENTENA (2020)</td>
-                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="/resultados/cuarentena1" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
+                                        <td className="p-1"><a href="/resultados/cuarentena1" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12">
                                         <td className="p-1">CUARENTENA II (2021)</td>
                                         <td className="p-1">
-                                            <a href="enunciados/Cuarentena_2_Día1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
-                                            <a className="block p-1 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_2_Día2.pdf">Día 2</a>
+                                            <a href="enunciados/Cuarentena_2_Día1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">Día 1</a>
+                                            <a className="block p-1 hover:text-blue-700 hover:transition-all hover:ease-linear" href="enunciados/Cuarentena_2_Día2.pdf">Día 2</a>
                                         </td>
-                                        <td className="p-1"><a href="resultados/cuarentena2" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1"><a href="resultados/cuarentena2" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA III (2021)</td>
-                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="resultados/cuarentena3" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
+                                        <td className="p-1"><a href="resultados/cuarentena3" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">Semana de Mórtimer (2022)</td>
-                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="resultados/semana1" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
+                                        <td className="p-1"><a href="resultados/semana1" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
                                         <td className="p-1">
-                                            <a href="enunciados/Cuarentena_4_ Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
-                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_4_ Dia2.pdf">Día 2</a>
+                                            <a href="enunciados/Cuarentena_4_ Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">Día 1</a>
+                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-linear" href="enunciados/Cuarentena_4_ Dia2.pdf">Día 2</a>
                                         </td>
-                                        <td className="p-1"><a className='hover:text-blue-700 hover:transition-all hover:ease-in' href="resultados/cuarentena4">Resultados</a></td>
+                                        <td className="p-1"><a className='hover:text-blue-700 hover:transition-all hover:ease-linear' href="resultados/cuarentena4">Resultados</a></td>
                                     </tr>
                                 </tbody>
                             </table>
