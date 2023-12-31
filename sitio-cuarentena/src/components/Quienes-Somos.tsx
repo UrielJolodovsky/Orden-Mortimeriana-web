@@ -81,8 +81,8 @@ export default function QuienesSomos() {
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
                                         <td className="p-1">
-                                            <a href="enunciados/Cuarentena_4_Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
-                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_4_Dia2.pdf">Día 2</a>
+                                            <a href="enunciados/Cuarentena_4_ Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in">Día 1</a>
+                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-in" href="enunciados/Cuarentena_4_ Dia2.pdf">Día 2</a>
                                         </td>
                                         <td className="p-1"><a className='hover:text-blue-700 hover:transition-all hover:ease-in' href="resultados/cuarentena4">Resultados</a></td>
                                     </tr>
