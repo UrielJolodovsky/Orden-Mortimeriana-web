@@ -23,8 +23,8 @@ export default function QuienesSomos() {
                 <div id="quienes-somos" className="">
                     <h1 className="text-center pb-10 pt-5 text-3xl leading-10 font-semibold">¿Quienes somos?</h1>
                     <p className="pb-5 mx-5 text-center">
-                    La Orden Mortimeriana es un comite de esbirros enviado por el gran Mortimer con el fin de despertar ese espíritu olímpico en los que ya no pueden participar. 
-                    Esta orden se caracteriza por salirse de lo conocido para brindarles a aquellos que ya no pueden participar de las olímpiadas, una experiencia única e inolvidable.
+                    La Orden Mortimeriana es un comité de esbirros enviado por el gran Mortimer con el propósito de recuperar el espíritu olímpico en aquellos que ya no pueden participar. 
+                    Esta orden se caracteriza por salirse de lo conocido para brindarles a los estimados exolímpicos, una experiencia única e inolvidable. Año a año se suman nuevos miembros jóvenes y aquellos no tan agraciados de juventud, se convierten en participantes.
                     </p>
                 </div>
                 <hr className="border-black"></hr>
@@ -39,7 +39,7 @@ export default function QuienesSomos() {
                 </div>
                 <hr className="border-black"></hr>
                 <div id="competencias-anteriores" className="mx-3 flex flex-col justify-center items-center pb-5">
-                    <h1 className="text-center pt-5 pb-10 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
+                    <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
                     <main className="text-center bg-white rounded-[15px] text-black">
                         <section>
                             {/* Header table */}
