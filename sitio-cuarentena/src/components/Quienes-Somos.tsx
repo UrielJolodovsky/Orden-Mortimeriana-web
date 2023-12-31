@@ -71,7 +71,7 @@ export default function QuienesSomos() {
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA III (2021)</td>
                                         <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-in"><a href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
-                                        <td className="p-1"><a href="" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
+                                        <td className="p-1"><a href="resultados/cuarentena3" className='hover:text-blue-700 hover:transition-all hover:ease-in'>Resultados</a></td>
                                     </tr>
                                     <tr className="h-12 m-3">
                                         <td className="p-1">Semana de Mórtimer (2022)</td>

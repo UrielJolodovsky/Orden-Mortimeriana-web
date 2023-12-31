@@ -2,11 +2,11 @@
 
 export default function Home() {
     return (
-        <div className="bg-hero bg-cover h-screen">
+        <div className="bg-hero bg-cover w-screen min-h-screen">
             <div className="p-5 flex justify-center items-center">
                 <h1 className="font-bold text-2xl">Premiados</h1>
             </div>
-            <div className="flex justify-center items-center pb-3 px-2 bg-hero 2xl:bg-cover">
+            <div className="flex justify-center items-start pb-3 px-2">
                 {/* Make table with name, and type of medal */}
                 <div className="border-2 border-black rounded-[15px] bg-white">
                     <table className="md:text-lg text-sm m-2">
