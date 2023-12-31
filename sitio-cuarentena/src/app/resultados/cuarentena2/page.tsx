@@ -2,8 +2,8 @@
 
 export default function Home() {
     return (
-        <div className="bg-hero bg-cover h-screen">
-            <div className="p-5 flex justify-center items-center bg-hero bg-cover">
+        <div className="bg-hero h-screen">
+            <div className="p-5 flex justify-center items-center">
                 <h1 className="font-bold text-2xl">Premiados</h1>
             </div>
             <div className="flex justify-center items-center pb-3 px-2 bg-hero bg-cover">
