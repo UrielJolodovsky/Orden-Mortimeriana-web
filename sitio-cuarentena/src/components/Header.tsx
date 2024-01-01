@@ -14,10 +14,10 @@ export default function Header() {
                 </div>
                <div className="md:flex md:justify-end md:items-center md:w-4/5 hidden">
                     <ul className="flex text-white gap-10 mr-10 text-md">
-                        <li><a href="#quienes-somos">Quienes somos</a></li>
-                        <li><a href="#noticias">Noticias</a></li>
-                        <li><a href="#competencias-anteriores" className=''>Competencias anteriores</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#quienes-somos" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Quienes somos</a></li>
+                        <li><a href="#noticias" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Noticias</a></li>
+                        <li><a href="#competencias-anteriores" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Competencias anteriores</a></li>
+                        <li><a href="#contacto" className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Contacto</a></li>
                     </ul>
                 </div>
             </nav>

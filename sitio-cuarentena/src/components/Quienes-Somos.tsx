@@ -12,7 +12,7 @@ import { useRouter } from 'next/navigation'
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '20/12/2023', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
+        { fecha: '01/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
         { fecha: '12/03/2023', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
         { fecha: '22/12/2021', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
     ];
