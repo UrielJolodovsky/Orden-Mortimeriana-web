@@ -1,12 +1,8 @@
 'use client'
 import React, { useState } from 'react'
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css"
-import "swiper/css/effect-coverflow"
-import EffectCoverflow  from "swiper"
-import { Autoplay } from 'swiper/modules'
-import CardNotice from './CardNotice'
-import { useRouter } from 'next/navigation'
+import CardNotice from './CardNotice';
+import UseEmblaCarousel  from 'embla-carousel-react';
+import  Carrousel from './Carrousel';
 
 
 export default function QuienesSomos() {
@@ -35,6 +31,11 @@ export default function QuienesSomos() {
                             CardNotice(noticia)
                         )
                         )}
+                    </div>
+                    <div className='max-w-lg'>
+                        <Carrousel>
+                            
+                        </Carrousel>
                     </div>
                 </div>
                 <hr className="border-black"></hr>
