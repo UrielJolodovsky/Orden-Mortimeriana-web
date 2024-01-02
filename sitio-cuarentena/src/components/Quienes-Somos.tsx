@@ -1,9 +1,6 @@
 'use client'
 import React, { useState } from 'react'
 import CardNotice from './CardNotice';
-import UseEmblaCarousel  from 'embla-carousel-react';
-import  Carrousel from './Carrousel';
-
 
 export default function QuienesSomos() {
 
@@ -31,11 +28,6 @@ export default function QuienesSomos() {
                             CardNotice(noticia)
                         )
                         )}
-                    </div>
-                    <div className='max-w-lg'>
-                        <Carrousel>
-                            
-                        </Carrousel>
                     </div>
                 </div>
                 <hr className="border-black"></hr>
