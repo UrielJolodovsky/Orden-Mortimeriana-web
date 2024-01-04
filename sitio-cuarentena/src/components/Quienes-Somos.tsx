@@ -38,9 +38,6 @@ export default function QuienesSomos() {
                 <div id="competencias-anteriores" className="mx-3 flex flex-col justify-center items-center pb-5">
                     <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Competencias anteriores</h1>
                     <main className="text-center bg-white rounded-[15px] text-black">
-                        <section>
-                            {/* Header table */}
-                        </section>
                         <section className="border-2 border-black rounded-[15px]">
                             {/* Body table */}
                             <table className="m-2">
@@ -78,8 +75,8 @@ export default function QuienesSomos() {
                                     <tr className="h-12 m-3">
                                         <td className="p-1">CUARENTENA IV (2023)</td>
                                         <td className="p-1">
-                                            <a href="enunciados/Cuarentena_4_ Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">Día 1</a>
-                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-linear" href="enunciados/Cuarentena_4_ Dia2.pdf">Día 2</a>
+                                            <a href="enunciados/Cuarentena_4_Dia1.pdf" className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">Día 1</a>
+                                            <a className="block p-2 hover:text-blue-700 hover:transition-all hover:ease-linear" href="enunciados/Cuarentena_4_Dia2.pdf">Día 2</a>
                                         </td>
                                         <td className="p-1"><a className='hover:text-blue-700 hover:transition-all hover:ease-linear' href="resultados/cuarentena4">Resultados</a></td>
                                     </tr>
