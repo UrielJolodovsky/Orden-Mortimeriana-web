@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description: 'Página creada por un grupo de olímpicos matemáticos',
   icons: {
     icon: [
-      "/favicon.ico",
+      "/icon-page/favicon.ico",
     ],
     apple: [
-      '/apple-touch-icon.png?v=4',
+      '/icon-page/apple-touch-icon.png?v=4',
     ],
     shortcut: [
-      '/apple-touch-icon.png',
+      '/icon-page/apple-touch-icon.png',
     ]
   },
   manifest: '/site.webmanifest',

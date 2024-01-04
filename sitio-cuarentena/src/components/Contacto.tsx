@@ -1,4 +1,6 @@
 import Image from "next/image"
+import React from "react"
+
 export default function Contacto() {
     return(
         <div id="contacto" className="w-full flex justify-center items-center bg-black">
