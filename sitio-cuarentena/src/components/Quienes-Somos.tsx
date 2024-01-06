@@ -10,6 +10,13 @@ export default function QuienesSomos() {
         { fecha: '22/12/2021', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
     ];
 
+    const ultimaNoticia = `Estimados mortales,
+
+    Nuevamente me encuentran a través de este medio, a través de lenguaje sucesivo, no vasto ni universal, que ha sido concebido en fin por bisoños en el uso de inducción. Mi comparecencia sin embargo, no tiene un fin mundano (probablemente vuestro recelo lo ha proyectado con antelación). Es de mi suma complacencia disponer de mi facultad de informaros sobre las siguientes primicias, las cuales espero sepan recibir con sendos supino interés y absoluta predisposición.
+    
+    En primer lugar, ha llegado el momento de que dé a conocer lo que todos vosotros estabais esperando atentamente (incluso si mis esbirros del Comité se hubieran tardado): los resultados de la última competencia, la IV CUARENTENA-"La CUARenTenA". No obstante, es de mi voluntad que antes de diligenciar vuestras dudas con apremio y leer la tabla de más abajo, muestren templanza y continúen percibiendo las nuevas.
+    En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`
+
     return(
         <>
             <div className="bg-hero bg-cover">
@@ -19,6 +26,19 @@ export default function QuienesSomos() {
                     La Orden Mortimeriana es un comité de esbirros enviado por el gran Mortimer con el propósito de recuperar el espíritu olímpico en aquellos que ya no pueden participar. 
                     Esta orden se caracteriza por salirse de lo conocido para brindarles a los estimados exolímpicos, una experiencia única e inolvidable. Año a año se suman nuevos miembros jóvenes y aquellos no tan agraciados de juventud, se convierten en participantes.
                     </p>
+                </div>
+                <hr className="border-black"></hr>
+                <div id='ultimo-momento'>
+                <h1 className="text-center pt-8 pb-8 text-3xl leading-10 font-semibold text-red-500 animate-bounce">¡ÚLTIMO MOMENTO!</h1>
+                <div>
+                    <div className='flex flex-col items-center justify-center pb-5'>
+                        <div className='border-2 border-black rounded-[25px] bg-white w-11/12 md:w-4/5 lg:w-4/5'>
+                        <div className='flex flex-col items-center justify-center p-5'>
+                            <p className='text-center text-base lg:text-lg text-gray-500'>{ultimaNoticia}</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 <hr className="border-black"></hr>
                 <div id="noticias" className="">

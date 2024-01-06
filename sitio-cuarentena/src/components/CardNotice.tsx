@@ -28,7 +28,7 @@ export default function CardNotice({ fecha, title, noticia, number, url }: { fec
             {/* Card content */}
             <h2 className='text-lg text-center'>{title}</h2>
             <p className='text-center text-base text-gray-500 pt-4'>{noticia}</p>
-            <button className='border-none text-[14px] text-white px-4 py-3 bg-blue-400 rounded-md m-3 cursor-pointer transition-all ease-linear hover:bg-blue-600'
+            <button className='absolute bottom-6 border-none text-[14px] text-white px-4 py-3 bg-blue-400 rounded-md m-3 cursor-pointer transition-all ease-linear hover:bg-blue-600'
             onClick={() => handleClick(url)}
             >
               Ver más
