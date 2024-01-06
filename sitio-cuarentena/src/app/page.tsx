@@ -1,4 +1,3 @@
-import CompetenciasAnteriores from '@/components/Competencias-Anteriores'
 import Contacto from '@/components/Contacto'
 import Header from '@/components/Header'
 import QuienesSomos from '@/components/Quienes-Somos'
