@@ -7,18 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Orden Mortimeriana',
   description: 'Página creada por un grupo de olímpicos matemáticos',
-  icons: {
-    icon: [
-      "/icon-page/favicon.ico",
-    ],
-    apple: [
-      '/icon-page/apple-touch-icon.png?v=4',
-    ],
-    shortcut: [
-      '/icon-page/apple-touch-icon.png',
-    ]
-  },
-  manifest: 'icon-page/site.webmanifest',
 }
 
 export default function RootLayout({
