@@ -14,7 +14,7 @@ export default function QuienesSomos() {
         <>
             <div className="bg-hero bg-cover">
                 <div id="quienes-somos" className="">
-                    <h1 className="text-center pb-10 pt-5 text-3xl leading-10 font-semibold">¿Quienes somos?</h1>
+                    <h1 className="text-center pb-10 pt-5 text-3xl leading-10 font-semibold">¿Quiénes somos?</h1>
                     <p className="pb-5 mx-5 text-center">
                     La Orden Mortimeriana es un comité de esbirros enviado por el gran Mortimer con el propósito de recuperar el espíritu olímpico en aquellos que ya no pueden participar. 
                     Esta orden se caracteriza por salirse de lo conocido para brindarles a los estimados exolímpicos, una experiencia única e inolvidable. Año a año se suman nuevos miembros jóvenes y aquellos no tan agraciados de juventud, se convierten en participantes.
