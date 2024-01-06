@@ -44,14 +44,12 @@ export default function QuienesSomos() {
                 <div id="noticias" className="">
                     <h1 className="text-center pt-5 pb-5 text-3xl leading-10 font-semibold">Noticias</h1>
                     <div className="flex justify-center items-center">
-                        <button className='px-4 bg-black text-white ml-3 lg:ml-0'>Prev</button>
-                        <div className='flex flex-wrap justify-center items-center mx-10 mb-10 gap-10 relative overflow-x-hidden'>
+                        <div className='flex flex-wrap justify-center items-center mx-10 mb-10 gap-10 relative'>
                         {noticias.map((noticia) => (
                             CardNotice(noticia)
                         )
                         )}
                         </div>
-                        <button className='px-4 bg-black text-white mr-3 lg:mr-0'>Next</button>
                     </div>
                 </div>
                 <hr className="border-black"></hr>
