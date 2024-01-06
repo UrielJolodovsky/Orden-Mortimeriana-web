@@ -5,7 +5,7 @@ import CardNotice from './CardNotice';
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '07/01/2024', title:'Semana de Mórtimer II', noticia: 'Ya está abierta la inscripción para la II Semana de Mórtimer. Apretá Ver Más para completar el proceso de inscripción.', number: 0, url: 'https://www.oma.org.ar/'},
+        { fecha: '07/01/2024', title:'Semana de Mórtimer II', noticia: 'Ya está abierta la inscripción para la II Semana de Mórtimer. Apretá Ver Más para completar el proceso de inscripción.', number: 0, url: 'https://docs.google.com/forms/d/e/1FAIpQLScp8d11F9DA5rvJ4_dB3qtCaB4JJaeUqrtVMGiGouWviu7FGQ/viewform?usp=sf_link'},
         { fecha: '06/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
         { fecha: '12/03/2023', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
         { fecha: '22/12/2021', title:'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
@@ -14,7 +14,7 @@ export default function QuienesSomos() {
     const ultimoMomento = [
         `Estimados mortales,`, 
         `En primer lugar, ha llegado el momento de que dé a conocer lo que todos vosotros estabais esperando atentamente (incluso si mis esbirros del Comité se hubieran tardado): los resultados de la última competencia, la IV CUARENTENA-"La CUARenTenA". No obstante, es de mi voluntad que antes de diligenciar vuestras dudas con apremio y leer la tabla de más abajo, muestren templanza y continúen percibiendo las nuevas.`,
-        `En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`
+        `En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`,
     ]
     return(
         <>
@@ -34,9 +34,9 @@ export default function QuienesSomos() {
                         <div className='border-2 border-black rounded-[25px] bg-white w-11/12 md:w-4/5 lg:w-4/5'>
                         <div className='flex flex-col items-center justify-center p-5'>
                             <div>
-                                {ultimoMomento.map((parrafo) => (
-                                    <p key={parrafo} className='text-base lg:text-lg text-black'>{parrafo}</p>
-                                ))}
+                                    <p className='text-base lg:text-lg text-black'>{ultimoMomento[0]}</p>
+                                    <p className='text-base lg:text-lg text-black'>{ultimoMomento[1]}</p>
+                                    <p className='text-base lg:text-lg text-black'>{ultimoMomento[2]} {""} <a href='http://tinyurl.com/347s8raz' className='text-blue-700 text-base lg:text-lg hover:underline'>http://tinyurl.com/347s8raz</a></p>
                             </div>
                         </div>
                         </div>
