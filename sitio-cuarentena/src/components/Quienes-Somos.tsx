@@ -5,16 +5,17 @@ import CardNotice from './CardNotice';
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '01/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
+        { fecha: '07/01/2024', title:'Semana de Mórtimer II', noticia: 'Ya está abierta la inscripción para la II Semana de Mórtimer. Apretá Ver Más para completar el proceso de inscripción.', number: 0, url: 'https://www.oma.org.ar/'},
+        { fecha: '06/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
         { fecha: '12/03/2023', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
-        { fecha: '22/12/2021', title: 'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
+        { fecha: '22/12/2021', title:'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
     ];
 
-    const ultimaNoticia = `Nuevamente me encuentran a través de este medio, a través de lenguaje sucesivo, no vasto ni universal, que ha sido concebido en fin por bisoños en el uso de inducción. Mi comparecencia sin embargo, no tiene un fin mundano (probablemente vuestro recelo lo ha proyectado con antelación). Es de mi suma complacencia disponer de mi facultad de informaros sobre las siguientes primicias, las cuales espero sepan recibir con sendos supino interés y absoluta predisposición.
-    
-    En primer lugar, ha llegado el momento de que dé a conocer lo que todos vosotros estabais esperando atentamente (incluso si mis esbirros del Comité se hubieran tardado): los resultados de la última competencia, la IV CUARENTENA-"La CUARenTenA". No obstante, es de mi voluntad que antes de diligenciar vuestras dudas con apremio y leer la tabla de más abajo, muestren templanza y continúen percibiendo las nuevas.
-    En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`
-
+    const ultimoMomento = [
+        `Estimados mortales,`, 
+        `En primer lugar, ha llegado el momento de que dé a conocer lo que todos vosotros estabais esperando atentamente (incluso si mis esbirros del Comité se hubieran tardado): los resultados de la última competencia, la IV CUARENTENA-"La CUARenTenA". No obstante, es de mi voluntad que antes de diligenciar vuestras dudas con apremio y leer la tabla de más abajo, muestren templanza y continúen percibiendo las nuevas.`,
+        `En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`
+    ]
     return(
         <>
             <div className="bg-hero bg-cover">
@@ -27,14 +28,15 @@ export default function QuienesSomos() {
                 </div>
                 <hr className="border-black"></hr>
                 <div id='ultimo-momento'>
-                <h1 className="text-center pt-8 pb-8 text-3xl leading-10 font-semibold text-red-500 animate-bounce">¡ÚLTIMO MOMENTO!</h1>
+                <h1 className="text-center pt-8 pb-5 text-3xl leading-10 font-semibold text-red-500 animate-bounce">¡ÚLTIMO MOMENTO!</h1>
                 <div>
                     <div className='flex flex-col items-center justify-center pb-5'>
                         <div className='border-2 border-black rounded-[25px] bg-white w-11/12 md:w-4/5 lg:w-4/5'>
                         <div className='flex flex-col items-center justify-center p-5'>
                             <div>
-                                <p className='text-base lg:text-lg text-gray-600'>Estimados mortales,</p>
-                                <p className='text-base lg:text-lg text-gray-600'>{ultimaNoticia}</p>
+                                {ultimoMomento.map((parrafo) => (
+                                    <p key={parrafo} className='text-base lg:text-lg text-black'>{parrafo}</p>
+                                ))}
                             </div>
                         </div>
                         </div>
