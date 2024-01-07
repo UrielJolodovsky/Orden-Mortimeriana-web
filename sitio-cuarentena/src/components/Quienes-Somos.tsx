@@ -34,8 +34,8 @@ export default function QuienesSomos() {
                         <div className='border-2 border-black rounded-[25px] bg-white w-11/12 md:w-4/5 lg:w-4/5'>
                         <div className='flex flex-col items-center justify-center p-5'>
                             <div>
-                                    <p className='text-base lg:text-lg text-black'>{ultimoMomento[0]}</p>
-                                    <p className='text-base lg:text-lg text-black'>{ultimoMomento[1]}</p>
+                                    <p className='text-base lg:text-lg text-black pb-1'>{ultimoMomento[0]}</p>
+                                    <p className='text-base lg:text-lg text-black pb-1'>{ultimoMomento[1]}</p>
                                     <p className='text-base lg:text-lg text-black'>{ultimoMomento[2]} {""} <a href='http://tinyurl.com/347s8raz' className='text-blue-700 text-base lg:text-lg hover:underline'>http://tinyurl.com/347s8raz</a></p>
                             </div>
                         </div>
