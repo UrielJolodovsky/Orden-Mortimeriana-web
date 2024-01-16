@@ -5,8 +5,8 @@ import CardNotice from './CardNotice';
 export default function QuienesSomos() {
 
     const noticias = [
-        { fecha: '07/01/2024', title:'Semana de Mórtimer II', noticia: 'Ya está abierta la inscripción para la II Semana de Mórtimer. Apretá Ver Más para completar el proceso de inscripción.', number: 0, url: 'https://docs.google.com/forms/d/e/1FAIpQLScp8d11F9DA5rvJ4_dB3qtCaB4JJaeUqrtVMGiGouWviu7FGQ/viewform?usp=sf_link'},
-        { fecha: '06/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
+        { fecha: '16/01/2024', title:'Semana de Mórtimer II', noticia: 'Ya está abierta la inscripción para la II Semana de Mórtimer. Apretá Ver Más para completar el proceso de inscripción.', number: 0, url: 'https://docs.google.com/forms/d/e/1FAIpQLScp8d11F9DA5rvJ4_dB3qtCaB4JJaeUqrtVMGiGouWviu7FGQ/viewform?usp=sf_link'},
+        { fecha: '15/01/2024', title:'Cuarentena IV', noticia: 'Ya están los resultados de la IV Cuarentena. Dirigite a Competencias Anteriores para encontrarlo', number: 1, url: 'resultados/cuarentena4' },
         { fecha: '12/03/2023', title:'Semana de Mórtimer', noticia: 'Los esbirros del gran comite ya subieron los resultados de la Semana de Mórtimer. Apretá en "Ver Más" para conocerlos', number: 2, url: 'resultados/semana1' },
         { fecha: '22/12/2021', title:'Cuarentena III', noticia: 'Ya se conocen los resultados de la 3era Cuarentena, disponibles en la sección de Competencias Anteriores.', number: 3, url: 'resultados/cuarentena3' },
     ];
@@ -14,7 +14,7 @@ export default function QuienesSomos() {
     const ultimoMomento = [
         `Estimados mortales,`, 
         `En primer lugar, ha llegado el momento de que dé a conocer lo que todos vosotros estabais esperando atentamente (incluso si mis esbirros del Comité se hubieran tardado): los resultados de la última competencia, la IV CUARENTENA-"La CUARenTenA". No obstante, es de mi voluntad que antes de diligenciar vuestras dudas con apremio y leer la tabla de más abajo, muestren templanza y continúen percibiendo las nuevas.`,
-        `En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del viernes 19 de enero a las 00:00 al jueves 25 de enero a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`,
+        `En segundo lugar, allegase una nueva competencia especialmente preparada, como siempre, para vosotros, los exolímpicos, mis estimados encomendados. Vuelve la felicidad y vuelve la Semana Mortimeriana. Tal es así que del domingo 25 de febrero a las 00:00 al sábado 02 de marzo a las 23:59 se desarrollará oficialmente la II Semana Mortimeriana, en esta oportunidad con problemas cada vez más sorprendentes y dignos de mi agrado. No será menor vuestro pasmo. Para inscribirse y recibir información adicional, deberán completar el siguiente formulario:`,
     ]
     return(
         <>
