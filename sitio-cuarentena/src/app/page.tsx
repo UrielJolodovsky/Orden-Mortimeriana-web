@@ -6,6 +6,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
+      <a>Bruno es el mejor.</a>
       <Header />
       <QuienesSomos />
       <Contacto />
