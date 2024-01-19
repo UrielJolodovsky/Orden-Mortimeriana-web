@@ -13,7 +13,7 @@ export default function Footer() {
           src="/logo.png"/>
         <p className="text-center pb-5 mx-3">Si tienes alguna duda o sugerencia, no dudes en contactarnos a nuestro correo electrónico:</p>
         <p className="text-center text-blue-400 pb-5 hover:scale-105">cuarentenaoma@gmail.com</p>
-        <hr className="border-2 mb-5 bg-contact-hr"></hr>
+        <hr className="border-4 mb-5 bg-contact-hr"></hr>
       </div>
     </div>
   )
