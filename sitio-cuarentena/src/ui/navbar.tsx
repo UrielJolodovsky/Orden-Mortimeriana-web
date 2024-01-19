@@ -9,21 +9,21 @@ export default function Navbar() {
       <nav 
           id="header"
           className="fixed top-0 mb-10 z-10 flex w-full bg-gradient-to-b from-black to-transparent backdrop-blur">
-        <div className="relative flex justify-between w-full">
+        <div className="relative flex justify-center sm:justify-between w-full">
           <div className="flex items-center">
             <div className='p-4'>
               <Link href='#header' className="">
                 <Image
                   className='rounded-full border-2'
                   alt="Logo"
-                  width={30}
-                  height={30}
+                  width={40}
+                  height={40}
                   src="/logo.png">
                 </Image>
               </Link>
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="hidden sm:flex items-center">
             <NavbarLink href='#quienes-somos' text='Quiénes somos'/>
             <NavbarLink href='#noticias' text='Noticias'/>
             <NavbarLink href='#competencias-anteriores' text='Competencias'/>
