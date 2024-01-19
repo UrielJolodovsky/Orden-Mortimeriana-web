@@ -28,7 +28,7 @@ body {
 
 body {
   font-family: 'Roboto Mono', monospace;
-  /* background-image: url("/sitio-cuarentena/public/subtle-prism.png"); */
+  background-image: url("/sitio-cuarentena/public/subtle-prism.png");
 }
 
 html {
@@ -40,4 +40,20 @@ html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+}
+
+.hover-underline::after {
+  display: block;
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  width: 100%;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  transform-origin: center;
+}
+
+.hover-underline:hover::after {
+  transform: scaleX(100);
 }
