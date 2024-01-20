@@ -18,18 +18,18 @@ export default function CompetenciasAnteriores() {
           <tbody className="p-2 m-2">
             <tr className="m-3 h-12">
               <td className="p-1">CUARENTENA (2020)</td>
-              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
+              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a target="_blank" href="enunciados/CUARENTENA I.pdf">Enunciados</a></td>
               <td className="p-1"><a href="/resultados/cuarentena1" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
             </tr>
             <tr className="h-12">
               <td className="p-1">CUARENTENA II (2021)</td>
               <td className="p-1">
-                <a
+                <a target="_blank"
                   href="enunciados/Cuarentena_2_Día1.pdf"
                   className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">
                     Día 1
                   </a>
-                <a
+                <a target="_blank"
                   className="block p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"
                   href="enunciados/Cuarentena_2_Día2.pdf">
                     Día 2
@@ -39,12 +39,12 @@ export default function CompetenciasAnteriores() {
             </tr>
             <tr className="h-12 m-3">
               <td className="p-1">CUARENTENA III (2021)</td>
-              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
+              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a target="_blank" href="enunciados/Cuarentena3.pdf">Enunciados</a></td>
               <td className="p-1"><a href="resultados/cuarentena3" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
             </tr>
             <tr className="h-12 m-3">
               <td className="p-1">Semana de Mórtimer (2022)</td>
-              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
+              <td className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"><a target="_blank" href="enunciados/Semana_de_Mortimer.pdf">Enunciados</a></td>
               <td className="p-1"><a href="resultados/semana1" className='hover:text-blue-700 hover:transition-all hover:ease-linear'>Resultados</a></td>
             </tr>
             <tr className="h-12 m-3">
@@ -52,12 +52,12 @@ export default function CompetenciasAnteriores() {
                 CUARENTENA IV (2023)
               </td>
               <td className="p-1">
-                <a
+                <a target="_blank"
                   href="enunciados/Cuarentena_4_Dia1.pdf"
                   className="p-1 hover:text-blue-700 hover:transition-all hover:ease-linear">
                     Día 1
                 </a>
-                <a
+                <a target="_blank"
                   className="block p-1 hover:text-blue-700 hover:transition-all hover:ease-linear"
                   href="enunciados/Cuarentena_4_Dia2.pdf">
                     Día 2
