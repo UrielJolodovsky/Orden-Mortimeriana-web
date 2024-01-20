@@ -1,6 +1,8 @@
 export default function CompetenciasAnteriores() {
   return (
-    <div id="competencias-anteriores" className="flex flex-col justify-center items-center py-4">
+    <div 
+      id="competencias-anteriores" 
+      className="flex flex-col justify-center items-center text-center py-4 mx-4 md:mx-0">
       <h1 className="text-3xl leading-10 font-semibold">
         Competencias anteriores
       </h1>
