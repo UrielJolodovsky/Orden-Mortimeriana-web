@@ -37,8 +37,8 @@ export default function NavigationPane() {
           <Image
             className='rounded-full border-2'
             alt="Logo"
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             src="/logo.png">
           </Image>
         </Link>

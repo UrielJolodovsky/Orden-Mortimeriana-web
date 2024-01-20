@@ -1,5 +1,5 @@
 import UltimoMomento from '@/components/ultimo-momento'
-import QuienesSomos from '@/components/quienes-somos'
+import QuienesSomos from '@/components/Quienes-Somos'
 import Noticias from '@/components/noticias'
 import CompetenciasAnteriores from '@/components/competencias-anteriores'
 import Footer from '@/components/footer'
