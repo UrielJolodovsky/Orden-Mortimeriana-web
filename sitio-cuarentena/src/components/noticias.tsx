@@ -61,7 +61,7 @@ export default function Noticias() {
       <div className='md:grid hidden md:grid-cols-2 lg:grid-cols-3 gap-10 relative mt-4'>
         {noticias.map(noticia => Card(noticia))}
       </div>
-      <div className='md:hidden flex justify-center items-center gap-x-3 mt-4'>
+      <div className='md:hidden flex justify-center items-center gap-x-5 sm:gap-x-10 mt-4'>
         <button className='bg-gray-400 rounded-full w-12 h-12 text-xl text-center' onClick={previousNotice}>{"<"}</button>
         {Card(selectedNotice)}
         <button className='bg-gray-400 rounded-full w-12 h-12 text-xl text-center' onClick={nextNotice}>{">"}</button>

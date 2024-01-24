@@ -19,7 +19,7 @@ export default function Card({
   const router = useRouter();
   const handleClick = (url: string) => router.push(`${url}`);
   return (
-    <div key={number} className='flex flex-col rounded-[25px] bg-white w-72 pb-4'>
+    <div key={number} className='flex flex-col rounded-[25px] bg-white w-72 h-[420px] md:h-auto pb-4'>
       <div className='flex justify-center items-center relative h-40 w-full rounded-[25px] bg-blue-400'>
         <Image
           className='object-cover rounded-full border-4 border-gray-300'
