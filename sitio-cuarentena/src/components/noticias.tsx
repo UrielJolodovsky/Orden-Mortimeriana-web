@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react'
 import Card from '../ui/card';
+import next from 'next';
 
 export default function Noticias() {
   const noticias = [
@@ -36,11 +37,34 @@ export default function Noticias() {
     },
   ];
 
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectedNotice, setSelectedNotice] = useState(noticias[0]);
+
+  const selectNewImage = (index: number, images: any, next = true) => {
+    const condition = next ? selectedIndex < images.length - 1 : selectedIndex > 0
+    const nextIndex = next ? (condition ? selectedIndex + 1 : 0) : condition ? selectedIndex - 1 : images.length - 1
+    setSelectedIndex(nextIndex)
+    setSelectedNotice(noticias[nextIndex])
+  }
+
+  const previousNotice = () => {
+    selectNewImage(selectedIndex, noticias, false)
+  }
+
+  const nextNotice = () => {
+    selectNewImage(selectedIndex, noticias)
+  }
+
   return (
     <div id='noticias' className='flex flex-col items-center py-4'>
       <h1 className='text-center text-3xl leading-10 font-semibold'>Noticias</h1>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 relative mt-4'>
+      <div className='md:grid hidden md:grid-cols-2 lg:grid-cols-3 gap-10 relative mt-4'>
         {noticias.map(noticia => Card(noticia))}
+      </div>
+      <div className='md:hidden flex justify-center items-center gap-x-3 mt-4'>
+        <button className='bg-gray-400 rounded-full w-12 h-12 text-xl text-center' onClick={previousNotice}>{"<"}</button>
+        {Card(selectedNotice)}
+        <button className='bg-gray-400 rounded-full w-12 h-12 text-xl text-center' onClick={nextNotice}>{">"}</button>
       </div>
     </div>
   )
