@@ -37,7 +37,7 @@ export default function NavigationPane() {
 
   const ConditionsDiv = (input: Number) => {
     return {
-      "lg:flex flex-col align-begin items-begin h-full -translate-x-full transition-transform duration-300 lg:translate-x-0": input == 0,
+      "lg:flex flex-col align-begin items-begin h-full -translate-x-full transition-transform duration-300 lg:translate-x-0 px-4": input == 0,
       "lg:flex flex-col align-begin items-begin h-full -translate-x-0 transition-transform duration-300 lg:translate-x-0": input == 1,
     }
   }
@@ -72,7 +72,6 @@ export default function NavigationPane() {
   }
 
   return (
-    <div className="z-20"> 
       <aside className={cn(ConditionsAside(input))}>
       <button id="menu-hamburger" className={cn(ConditionsButton(input))} onClick={MenuHamburger}>
             <svg className={cn(ConditionsSVG(input))} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -99,7 +98,6 @@ export default function NavigationPane() {
           ))}
         </div>
       </aside>
-    </div>
   )
 }
 
